@@ -6,7 +6,7 @@ website_url: https://github.com/reichlab/covid-hosp-models
 license: cc-by-4.0
 team_model_designation: secondary
 ensemble_of_hub_models: false
-methods: 'Gradient boosting for the median, followed by a conformal prediction to get quantiles'
+methods: 'Gradient boosting for the median, followed by conformal prediction to get quantiles'
 methods_long: 'Bagged gradient boost is used to obtain a predictive median.
   Features include the day of week, location, population, and summaries of time
   series behavior. Quantiles are obtained via a procedure similar to split
